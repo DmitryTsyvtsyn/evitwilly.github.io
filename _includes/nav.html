@@ -11,73 +11,7 @@
 	        </a>
 	      </div>
 	   </div>
-	   <ul class="list-inline text-center footer-links">
-
-
-  <li class="list-inline-item">
-    <a href="/feed.xml" title="RSS">
-      <span class="fa-stack fa-lg" aria-hidden="true">
-        <i class="fas fa-circle fa-stack-2x"></i>
-        <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
-      </span>
-      <span class="sr-only">RSS</span>
-    </a>
-  </li>
-
-  <li class="list-inline-item">
-    <a href="mailto:dmitry.tehnicov@gmail.com" title="Email me">
-      <span class="fa-stack fa-lg" aria-hidden="true">
-        <i class="fas fa-circle fa-stack-2x"></i>
-        <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
-      </span>
-      <span class="sr-only">Email me</span>
-   </a>
-  </li>
-
-  <li class="list-inline-item">
-    <a href="https://t.me/evitwilly" title="Telegram">
-      <span class="fa-stack fa-lg" aria-hidden="true">
-        <i class="fas fa-circle fa-stack-2x"></i>
-        <i class="fab fa-telegram-plane fa-stack-1x fa-inverse"></i>
-      </span>
-      <span class="sr-only">Telegram</span>
-    </a>
-  </li>
-
-  <li class="list-inline-item">
-    <a href="https://github.com/evitwilly" title="GitHub">
-      <span class="fa-stack fa-lg" aria-hidden="true">
-        <i class="fas fa-circle fa-stack-2x"></i>
-        <i class="fab fa-github fa-stack-1x fa-inverse"></i>
-      </span>
-      <span class="sr-only">GitHub</span>
-   </a>
-  </li>
-
-  <li class="list-inline-item">
-    <a href="https://www.instagram.com/{{ site.social-network-links.instagram }}" title="Instagram">
-      <span class="fa-stack fa-lg" aria-hidden="true">
-        <i class="fas fa-circle fa-stack-2x"></i>
-        <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
-      </span>
-      <span class="sr-only">Instagram</span>
-   </a>
-  </li>
-
-
-<!-- {%- if site.social-network-links.youtube -%}
-  <li class="list-inline-item">
-    <a href="https://www.youtube.com/{{ site.social-network-links.youtube }}" title="YouTube">
-      <span class="fa-stack fa-lg" aria-hidden="true">
-        <i class="fas fa-circle fa-stack-2x"></i>
-        <i class="fab fa-youtube fa-stack-1x fa-inverse"></i>
-      </span>
-      <span class="sr-only">YouTube</span>
-   </a>
-  </li>
-{%- endif -%} -->
-
-</ul>
+	     {% include social_networks.html %}
 	</div>
 </div>
 
@@ -91,7 +25,7 @@
 
 	           <a class="navigation_link" style="margin-right: 20px" href="/learning.html">Обучение</a>
 
-	           <a class="navigation_link" style="" href="/about.html">Обо мне</a>
+	           <a class="navigation_link" style="" href="/about">Обо мне</a>
 	    	</div>
 	  </div>
 

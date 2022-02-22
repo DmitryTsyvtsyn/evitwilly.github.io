@@ -1,17 +1,14 @@
-<!DOCTYPE html>
-<html lang="ru">
+---
+layout: base
+---
 
-{% include head.html %}
+<div class="{% if page.full-width %} container-fluid {% else %} container-md {% endif %}" role="main">
 
-<body>
+  <div class="row">
+    <div class="{% if page.full-width %} col {% else %} col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 {% endif %}">
+    
+      {{ content }}
 
-  {% include nav.html %}
-
-  {{ content }}
-
-  {% include footer.html %}
-
-  {% include footer_scripts.html %}
-
-</body>
-</html>
+    </div>
+  </div>
+</div>
