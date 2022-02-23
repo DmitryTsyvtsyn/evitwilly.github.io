@@ -1,5 +1,6 @@
 ---
 layout: page
+title: Обо мне
 ---
 
 <img src="/assets/img/aboutme.jpg" style="width: 60%; border-radius: 20px;" />

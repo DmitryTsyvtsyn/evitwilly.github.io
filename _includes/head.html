@@ -2,8 +2,17 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+  {% capture title %}
+    {%- if page.share-title -%}
+      {{ page.share-title | strip_html | xml_escape }}
+    {%- elsif page.title -%}
+      {{ page.title | strip_html | xml_escape  }}
+    {%- else -%}
+      {{ site.title | strip_html | xml_escape }}
+    {%- endif -%}
+  {% endcapture %}
 
-  <title>FreeIT</title>
+  <title>{{ title }}</title>
 
   <link rel="stylesheet" type="text/css" href="/assets/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="/assets/css/custom_styles.css">
@@ -29,7 +38,6 @@
 
   <meta property="og:title" content="FreeIT">
   <meta property="og:description" content="Обучение Android разработке и программированию, а также статьи о собственной жизни">
-
 
 
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-T3YJSR3WZW"></script>

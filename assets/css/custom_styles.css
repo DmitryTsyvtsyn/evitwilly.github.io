@@ -1,133 +1,14 @@
----
-layout: null
----
+/*
+	core
+*/
 
-
-.read_more_button {
-	border-radius: 3px;
-	padding: 5px 10px 5px 10px;
-	border: 1px solid #0085A1;
+.no-margin {
+	margin: 0px !important;
 }
 
-.search_input {
-	width: 80%; 
-	border: 1px solid #666;
-	border-radius: 10px;
-	padding: 5px 10px 5px 10px;
-	margin-bottom: 30px; 
-	font-size: 18px; 
-	color: #666;
-}
-
-.book_choice {
-	padding: 8px 16px 8px 16px;
-	color: #0085A1;
-	margin-bottom: 16px;
-	border-radius: 16px;
-	border: 1px solid #0085A1;
-}
-
-.book_header {
-	margin-top: 20px; 
-	margin-bottom: 20px;
-	padding-bottom: 16px;
-	border-bottom: 3px solid #0085A1;
-}
-
-.book_choice:hover {
-	text-decoration: none;
-	box-shadow: 0px 0px 2px #0085A1;
-}
-
-.book_choice_selected {
-	padding: 8px 16px 8px 16px;
-	border-radius: 16px;
-	margin-bottom: 16px;
-	background-color: #0085A1;
-	color: white;
-}
-
-.book_choice_selected:hover {
-	color: white;
-	text-decoration: none;
-}
-
-
-.learning_img {
-	width: 300px;
-}
-
-.learning_header {
-	margin-left: 10px; margin-top: 0px
-}
-
-
-@media(max-width: 700px) {
-	.learning_img {
-		width: 136px;
-	}
-}
-
-@media (max-width: 500px) {
-	.search_input {
-		width: 90%;
-	}
-	.list-inline-item {
-		width: 53px;
-		margin: 1px !important;
-		padding: 0px !important;
-	}
-	.learning_link_h2 {
-		font-size: 26px !important;
-	}
-	.learning_item {
-		flex-direction: column;
-	}
-	.learning_img {
-		width: 100%;
-	}
-	.learning_header {
-		margin-left: 0px;
-		margin-top: 10px;
-	}
-}
-
-.subscribe_button {
-	background: transparent;
-	margin-left: 0px;
-		border: 1px solid #0085A1;
-		outline: none;
-		padding: 5px 10px 5px 10px;
-	border: 1p;
-	color: #0085A1;
-}
-
-.subscribe_button:hover {
-	background: #0085A1;
-	color: white;
-}
-
-
-.form-group > #email:focus, .form-group > #reason:focus {
-	outline: none;
-	border: 2px solid #0085A1;
-	box-shadow: none;
-}
-
-label.lab {
-	font-size: 17px;
-	color: #000;
-	font-weight: 300;
-}
-
-.learning_link {
-	text-decoration: none;
-	color: #444;
-}
-
-.learning_link:hover {
-	text-decoration: none;
-}
+/*
+	blog header: subscribe button, social icons + logo;
+*/
 
 #subscribe_link {
 	margin-right: 10px; 
@@ -143,19 +24,16 @@ label.lab {
 
 .fa-stack.fa-lg {
 	color: black;
-	margin-top: 5px;
 }
 
 .fa-stack.fa-lg:hover {
 	color: #0085A1;
 }
 
-
 .logo-container {
 	display: inline-block;
 	position: relative;
 }
-
 
 .logo-img {
 	width: 80px; 
@@ -186,22 +64,16 @@ label.lab {
 }
 
 
-.search_input:focus {
-	outline: none;
-	border: 1px solid #0085A1;
-}
+/* 
+	blog navigation: main, learning, about me;
+*/
 
 .navigation_link {
 	font-size: 20px;
 	color: #666;
-	/*border-top-left-radius: 100px;
-	padding-left: 5px;
-	border-bottom-left-radius: 100px;
-	border-left: 1px solid #666;*/
 	border-bottom: 3px solid #666;
 	font-weight: bold; 
 }
-
 
 
 .navigation_link:hover {
@@ -210,31 +82,68 @@ label.lab {
 	color: #0085A1;
 }
 
-.read_more_button > span {
-	color: #0085A1;
+/*
+
+	learning section
+
+*/
+
+
+.learning-block {
+	padding: 32px; 
+	border-radius: 20px; 
+	display: flex; 
+	align-items: center; 
+	cursor: pointer;
 }
 
-.read_more_button:hover {
-	background-color: #0085A1;
+.learning-block__android {
+	background: #00F48B;
+	margin-bottom: 16px;
+	margin-top: 32px;
 }
 
-.read_more_button:hover > span {
-	color: white;
+.learning-block__android:hover {
+	background: #08c775;
 }
 
-.read_book {
-	border: 1px solid #0085A1;
-	padding: 6px 16px 6px 16px;
+.learning-block__java_kotlin {
+	background: #9900FC;
+	margin-bottom: 16px;
 }
 
-.read_book > span {
-	color: #0085A1;
+.learning-block__java_kotlin:hover {
+	background: #7d08c9;
 }
 
-.read_book:hover {
-	background-color: #0085A1;
+.learning-block__basics {
+	background: #F0008B;
+	margin-bottom: 32px;
 }
 
-.read_book:hover > span {
-	color: white;
+.learning-block__basics:hover {
+	background: #bd0971;
 }
+
+.learning-icon-box {
+	width: 56px; text-align: center; margin-right: 8px
+}
+
+.learning-icon-48 {
+	color: black; 
+	font-size: 48px;	
+}
+
+.learning-icon-40 {
+	color: black;
+	font-size: 40px;
+}
+
+.learning-name {
+	color: black; 
+	font-size: 21px
+}
+
+
+
+
