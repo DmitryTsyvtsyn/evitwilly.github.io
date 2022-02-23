@@ -146,4 +146,24 @@
 
 
 
+/*
+	main section
+*/
 
+.read_more_button {
+	border-radius: 3px;
+	padding: 5px 10px 5px 10px;
+	border: 1px solid #0085A1;
+}
+
+.read_more_button > span {
+	color: #0085A1;
+}
+
+.read_more_button:hover {
+	background-color: #0085A1;
+}
+
+.read_more_button:hover > span {
+	color: white;
+}
