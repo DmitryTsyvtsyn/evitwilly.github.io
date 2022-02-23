@@ -1,4 +1,102 @@
 ---
-layout: base
+layout: page
 title: Главная
 ---
+
+<div class="posts-list" style="margin-top: 0px">
+  {% for post in site.posts %}
+  <article class="post-preview">
+
+  
+    <a href="{{ post.url | absolute_url }}">
+      <h2 class="post-title">{{ post.title }}</h2>
+
+      {% if post.subtitle %}
+        <h3 class="post-subtitle">
+        {{ post.subtitle }}
+        </h3>
+      {% endif %}
+    </a>
+
+     <div style="padding: 0px; margin: 0px; margin-top: 13px; margin-bottom: 10px; display: flex; align-items: center; flex-wrap: wrap">
+        
+	<p class="post-meta" style="margin-right: 20px; margin-bottom: 10px;">
+      {% assign date_format = site.date_format | default: "%-d.%m.%Y" %}
+      Добавлен {{ post.date | date: date_format }}
+    </p>
+    
+    <p class="post-meta" itemprop="wordCount" style="margin-right: 10px; margin-bottom: 10px; " >
+    	{% assign word_count = post.content | number_of_words %}
+    	{% if word_count == 1 %}
+    		{{ word_count | append: ' слово' }}
+    	{% endif %}
+    	{% if word_count > 1 and word_count < 5 %}
+    		{{ word_count | append: ' слова' }}
+    	{% endif %}
+    	{% if word_count > 5 %}
+    		{{ word_count | append: ' слов' }}
+    	{% endif %}
+    </p>
+
+
+    <p class="post-meta" style="margin-right: 20px">
+                {% capture words %}
+                {{ post.content | number_of_words | minus: 180 }}
+                {% endcapture %}
+                {% unless words contains '-' %}
+                {% assign minutes = words | plus: 180 | divided_by: 180 %}
+                {{ minutes }}
+                {% if minutes == 1 %}
+                  минута чтения
+                {% endif %}
+                {% endunless %}
+                {% if minutes > 1 and minutes < 4 %}
+                  минуты чтения
+                {% endif %}
+                {% if minutes > 3 %}
+                  минут чтения
+                {% endif %}
+              </p>       
+
+     </div>
+ 
+
+    <p>{{ post.description }}</p>
+
+   
+    <div class="d-flex justify-content-between align-items-center" style="margin-top: 30px">
+     
+        <a href="{{ post.url | absolute_url }}" class="read_more_button"><span>Подробнее</span></a>
+      	
+      	{% if site.feed_show_tags != false and post.tags.size > 0 %}
+    <p>
+      <span>Тэги:</span>
+      {% for tag in post.tags %}
+      <a href="">{{- tag -}}</a>
+      <!-- <a href="{{ '/tags' | absolute_url }}#{{- tag -}}">{{- tag -}}</a> -->
+      {% endfor %}
+    </p>
+    {% endif %}
+    </div>
+
+
+
+   </article>
+  {% endfor %}
+</div>
+
+{% if paginator.total_pages > 1 %}
+<ul class="pagination main-pager">
+  {% if paginator.previous_page %}
+  <li class="page-item previous">
+    <a class="page-link" href="{{ paginator.previous_page_path | absolute_url }}">&larr; Вперед</a>
+  </li>
+  {% endif %}
+  {% if paginator.next_page %}
+  <li class="page-item next">
+    <a class="page-link" href="{{ paginator.next_page_path | absolute_url }}">Назад &rarr;</a>
+  </li>
+  {% endif %}
+</ul>
+{% endif %}
+
