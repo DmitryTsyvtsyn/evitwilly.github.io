@@ -1,21 +1,8 @@
 # freeit.github.io
 
-Это мой блог в котором я делюсь своими мыслями, выкладываю обучающие материалы по программированию и Android разработке.
+Мой блог в котором я делюсь своими мыслями, выкладываю обучающие материалы по программированию и Android разработке.
 
-Основные языки программировнаия: **Java**, **Kotlin** и немного **Python**
-
-## Скрины
-
-<table style="border-collapse: collapse;" cellspacing="0" cellpadding="0">
-  <tr>
-    <td><img src="https://github.com/KiberneticWorm/freeit.github.io/blob/master/assets/screenshots/screen1.png" /></td>
-    <td><img src="https://github.com/KiberneticWorm/freeit.github.io/blob/master/assets/screenshots/screen2.png" /></td>
-  </tr>
-  <tr>
-    <td><img src="https://github.com/KiberneticWorm/freeit.github.io/blob/master/assets/screenshots/screen3.png" /></td>
-    <td><img src="https://github.com/KiberneticWorm/freeit.github.io/blob/master/assets/screenshots/screen4.png" /></td>
-  </tr>
-</table>
+Основные языки программировнаия: **Java** и **Kotlin**
 
 ## Основные принципы
 
