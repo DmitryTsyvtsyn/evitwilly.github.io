@@ -39,7 +39,7 @@ title: Обо мне
 
 Я реализовал различные структуры данных (стэк, очередь, связанный список), поработал с памятью и познакомился с особенностями С++.
 
-Где-то в марте 2020 я сделал графическое приложение на **Java**, которое сохраняло пароли юзеров со светлой и темной темами.
+Где-то в марте 2020 я сделал графическое приложение на **Java**, которое сохраняло пароли юзеров.
 
 Потом меня попросили сделать <a href="https://play.google.com/store/apps/details?id=ru.rubt.rubttimetable&hl=ru&gl=US" style="color: #0085A1">приложение для моего техникума</a> чтобы просматривать расписание занятий.
 
@@ -47,7 +47,7 @@ title: Обо мне
 
 Сначала я смотрел ютуб и повторял.
 
-Затем я начал читать <a href="https://developer.android.com" style="color: #0085A1">developer.android.com</a> + статьи из интернета и конечно же <a href="https://stackoverflow.com">Stack Overlow</a>
+Затем я начал читать <a href="https://developer.android.com" style="color: #0085A1">developer.android.com</a> + статьи из интернета и конечно же <a href="https://stackoverflow.com" style="color: #0085A1">Stack Overlow</a>
 
 Осенью 2020 я подключил уведомления для моего приложения и переписал его с Java на Kotlin.
 
@@ -61,7 +61,7 @@ title: Обо мне
 
 Помимо постоянного места работы, я взял проект у друга из Уфы: <a href="https://play.google.com/store/apps/details?id=ru.freeit.dumrb" style="color: #0085A1">ДУМ РБ</a> и активно его поддерживаю.
 
-Также я уделяю время **open source** коду и если вам интересно то обратите внимание на три моих проекта:
+Также я уделяю время **open source** коду и если вам интересно то обратите внимание на три моих последних проекта:
 
 - <a href="https://github.com/evitwilly/Kotlin-Algorithms-and-Design-Patterns" style="color: #0085A1">Kotlin Algorithms and Design Patterns</a>
 - <a href="https://github.com/evitwilly/locsimple" style="color: #0085A1">locsimple</a>

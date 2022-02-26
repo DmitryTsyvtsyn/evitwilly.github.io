@@ -39,7 +39,7 @@ In September 2019, I became interested in **C/C++ and algorithms**.
 
 I implemented various data structures (stack, queue, linked list), worked with memory and got acquainted with the features of C ++.
 
-Sometime in March 2020, I made a graphical application in **Java** that saved user passwords with light and dark themes.
+Sometime in March 2020, I made a graphical application in **Java** that saved user passwords.
 
 Then I was asked to make an <a href="https://play.google.com/store/apps/details?id=ru.rubt.rubttimetable&hl=ru&gl=US" style="color: #0085A1">app for my college </a> to view the class schedule.
 
@@ -47,7 +47,7 @@ That's how I met **Android**.
 
 At first I watched YouTube and repeated.
 
-Then I started reading <a href="https://developer.android.com" style="color: #0085A1">developer.android.com</a> + articles from the web and of course <a href="https://stackoverflow.com">Stack Overlow</a>
+Then I started reading <a href="https://developer.android.com" style="color: #0085A1">developer.android.com</a> + articles from the web and of course <a href="https://stackoverflow.com" style="color: #0085A1">Stack Overlow</a>
 
 In the fall of 2020, I enabled notifications for my application and rewrote it from Java to Kotlin.
 
@@ -60,7 +60,7 @@ During the year I made three projects: Ecotrails, visit-sochi and Krasnaya Polya
 In January 2022, I started interviewing for different companies and ended up at **SBERBANK**.
 
 In addition to my permanent job, I borrowed a project from a friend from Ufa: <a href="https://play.google.com/store/apps/details?id=ru.freeit.dumrb" style="color: #0085A1" >DUM RB</a> and actively support it.
-I also spend time on **open source** code, and if you're interested, take a look at three of my projects:
+I also spend time on **open source** code, and if you're interested, take a look at three of my last projects:
 
 - <a href="https://github.com/evitwilly/Kotlin-Algorithms-and-Design-Patterns" style="color: #0085A1">Kotlin Algorithms and Design Patterns</a>
 - <a href="https://github.com/evitwilly/locsimple" style="color: #0085A1">locsimple</a>
