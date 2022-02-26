@@ -6,6 +6,10 @@
 	margin: 0px !important;
 }
 
+.markdown-link {
+	color: #0085A1;
+}
+
 /*
 	blog header: subscribe button, social icons + logo;
 */
@@ -118,12 +122,22 @@
 
 .learning-block__basics {
 	background: #F0008B;
-	margin-bottom: 32px;
+	margin-bottom: 16px;
 }
 
 .learning-block__basics:hover {
 	background: #bd0971;
 }
+
+.learning-block__old_materials {
+	background: #f2b40a;
+	margin-bottom: 32px;
+}
+
+.learning-block__old_materials:hover {
+	background: #e6aa05;
+}
+
 
 .learning-icon-box {
 	width: 56px; text-align: center; margin-right: 8px
@@ -134,9 +148,15 @@
 	font-size: 48px;	
 }
 
+
 .learning-icon-40 {
 	color: black;
 	font-size: 40px;
+}
+
+.learning-icon-32 {
+	color: black;
+	font-size: 32px;	
 }
 
 .learning-name {
@@ -144,7 +164,14 @@
 	font-size: 21px
 }
 
+.learning-link {
+	color: #000;
+}
 
+.learning-link:hover {
+	text-decoration: none;
+	color: #000;
+}
 
 /*
 	main section

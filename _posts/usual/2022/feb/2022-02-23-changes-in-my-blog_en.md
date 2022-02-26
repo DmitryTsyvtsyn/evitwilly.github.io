@@ -1,8 +1,9 @@
 ---
 layout: post
-title: Новый блог!
+title: A NEW BLOG!
 tag: [новое]
-type: english
+language: english
+type: usual
 description: 
 ---
 
