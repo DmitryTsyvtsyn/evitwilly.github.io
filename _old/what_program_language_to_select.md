@@ -2,7 +2,7 @@
 layout: post
 title: Какой язык программирования лучше выбрать для начала? &#129300;
 header_img: https://www.programwitherik.com/content/images/2017/02/programming-languages.jpg
-type: old
+order: 2
 language: russian
 tags: [начало, программирование, код, язык программирования]
 ---

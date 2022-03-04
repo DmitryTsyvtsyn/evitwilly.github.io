@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Часть I переменные
-type: old
+order: 6
 language: russian
 tags: [переменные, Kotlin, обучение]
 ---

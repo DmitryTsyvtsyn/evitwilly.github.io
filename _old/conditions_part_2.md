@@ -2,7 +2,7 @@
 layout: post
 title: Часть II условия
 thumbnail: /assets/img/posts/2021/if_else_kotlin.jpg
-type: old
+order: 7
 language: russian
 tags: [условия, Kotlin, обучение]
 ---

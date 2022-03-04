@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Что такое объектно-ориентированное программирование?
-type: old
+order: 8
 language: russian
 tags: [ооп, Kotlin, объект, класс]
 ---

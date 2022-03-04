@@ -22,6 +22,8 @@
 collections:
   basics:
     output: true
+  old:
+    output: true
 
 # Build settings
 theme: minima

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Первый код &#128515;
-type: old
+order: 3
 language: russian
 tags: [начало, программирование, код, язык программирования]
 ---

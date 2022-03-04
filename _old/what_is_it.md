@@ -2,7 +2,7 @@
 layout: post
 title: Что это вообще такое? &#129300;
 header_img: /assets/img/posts/old/2021/sep/dum_rb_coding.png
-type: old
+order: 1
 language: russian
 tags: [погружение, программирование, код, работа]
 ---
