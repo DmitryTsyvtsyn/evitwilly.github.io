@@ -16,21 +16,6 @@ title: Основы
 {% assign index = index | plus: 1 %}
 {% endfor %}
 
-
-<!-- <a href="/basics/introduction/" class="markdown-link" style="font-size: 26px">1. Введение</a>
-
-<a href="/basics/coding_process/" class="markdown-link" style="font-size: 26px">2. Процесс кодинга</a>
-
-<a href="/basics/work_environment" class="markdown-link" style="font-size: 26px">3. Рабочее окружение</a>
-
-<a href="/basics/keywords" class="markdown-link" style="font-size: 26px">4. Ключевые слова</a>
-
-<a href="/basics/variables/" class="markdown-link" style="font-size: 26px">5. Переменные</a>
-
-<a href="/basics/logic_datatype/" class="markdown-link" style="font-size: 26px">6. Логический тип данных</a>
-
-<a href="/basics/constructions_language" class="markdown-link" style="font-size: 26px">7. Основные конструкции языка</a> -->
-
 <!-- 
 <a href="" class="markdown-link" style="font-size: 26px">4. Типы программирования</a>
 
