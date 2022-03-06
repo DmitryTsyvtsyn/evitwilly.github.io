@@ -24,6 +24,8 @@ collections:
     output: true
   old:
     output: true
+  articles:
+    output: true
 
 # Build settings
 theme: minima
