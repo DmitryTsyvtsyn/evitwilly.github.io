@@ -1,29 +1,28 @@
 # freeit.github.io
 
-Мой блог в котором я делюсь своими мыслями, выкладываю обучающие материалы по программированию и Android разработке.
+My blog where I share my thoughts, post tutorials on programming and Android development.
 
-Основные языки программировнаия: **Java** и **Kotlin**
+Programming languages: **Java**, **Kotlin** and some **Python**
 
-## Основные принципы
+## Basic principles
 
-Главным принципом моих обучающих материалов является практический смысл.
+1. Simplicity
+2. Knowledge should be free
+3. More practice
+5. Less confusing and complicated things
 
-Мои материалы состоят почти на 80% из практики.
+## Download
 
-Также я придерживаюсь простоты изложения и стараюсь объяснять принципы программирования на картинках.
-
-## Установка
-
-Сначала загрузите исходный код:
+First, download source code of my blog:
 
     git clone https://github.com/KiberneticWorm/freeit.github.io.git
   
-Потом установите Jekyll [по документации на сайте](https://jekyllrb.com/docs/)
+Then, download Jekyll [by documentation](https://jekyllrb.com/docs/)
 
-Затем зайдите в папку блога и выполните команду:
+Go to the blog folder and run command:
 
     bundle exec jekyll serve
     
-Откройте браузер по адресу: http://localhost:4000
+Open your browser at address: http://localhost:4000
 
  
