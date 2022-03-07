@@ -10,6 +10,7 @@ Programming languages: **Java**, **Kotlin** and some **Python**
 2. Knowledge should be free
 3. More practice
 5. Less confusing and complicated things
+6. Feedback
 
 ## Download
 
