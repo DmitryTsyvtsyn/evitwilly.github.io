@@ -25,8 +25,6 @@ title: Основы
 
 <a href="" class="markdown-link" style="font-size: 26px">6. Git</a>
 
-<a href="" class="markdown-link" style="font-size: 26px">7. Командная строка</a>
-
 <a href="" class="markdown-link" style="font-size: 26px">7. Hello, World!</a> -->
 
 
