@@ -16,18 +16,5 @@ title: Основы
 {% assign index = index | plus: 1 %}
 {% endfor %}
 
-<!-- 
-<a href="" class="markdown-link" style="font-size: 26px">4. Типы программирования</a>
-
-<a href="" class="markdown-link" style="font-size: 26px">5. Процедурное программирование</a>
-
-<a href="" class="markdown-link" style="font-size: 26px">5. Объектно-ориентированное программирование</a>
-
-<a href="" class="markdown-link" style="font-size: 26px">6. Git</a>
-
-<a href="" class="markdown-link" style="font-size: 26px">7. Hello, World!</a> -->
-
-
-
 
 

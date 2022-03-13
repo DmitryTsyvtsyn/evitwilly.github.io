@@ -131,11 +131,21 @@
 
 .learning-block__old_materials {
 	background: #f2b40a;
-	margin-bottom: 32px;
+	margin-bottom: 16px;
 }
 
 .learning-block__old_materials:hover {
 	background: #e6aa05;
+}
+
+
+.learning-block__planning {
+	background: #6DCAEA;
+	margin-bottom: 32px;
+}
+
+.learning-block__planning:hover {
+	background: #55c0e6;
 }
 
 
