@@ -2,9 +2,6 @@
 layout: post
 title: Новый блог!
 tag: [новое]
-language: russian
-type: usual
-is_translated: true
 description: Сегодня отличный день! Я решил полностью переписать мой блог. 
 ---
 

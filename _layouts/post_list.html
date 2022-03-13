@@ -3,7 +3,7 @@ layout: page
 ---
 
 <div class="posts-list" style="margin-top: 0px">
-  {% assign posts = site.posts | where: "language", "russian" | where: "type", page.type %}
+  {% assign posts = site.posts %}
   {% if page.sorted %}
   {% assign sorted_posts = posts | sort: "date" %}
   {% else %}

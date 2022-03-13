@@ -10,6 +10,24 @@
 	color: #0085A1;
 }
 
+
+.core_button {
+	display: block;
+	position: fixed;
+	width: 56px;
+	bottom: 32px;
+	right: 32px;
+	width: 56px; 
+	height: 56px; 
+	border-radius: 100px; 
+	text-align: center; 
+	background: #0096DC;
+}
+
+.core_button:hover {
+	background: #088cc9;
+}
+
 /*
 	blog header: subscribe button, social icons + logo;
 */

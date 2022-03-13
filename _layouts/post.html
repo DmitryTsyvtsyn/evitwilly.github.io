@@ -13,13 +13,7 @@ layout: base
     {% endif %}
 
 
-  	<div class="d-flex align-items-center" style="border-bottom: 3px solid #0085A1; padding-bottom: 8px; margin-top: 32px">
-        <h2 class="post-title" style="margin: 0px; font-size: 36px">{{ page.title }}</h2>
-        {% assign english = page.url | replace: "ru", "en" %}
-        {% if page.language == "russian" and page.is_translated %}
-        <a href="{{english}}" style="color: #0085A1; font-size: 30px; margin-left: 8px">(EN)</a>
-        {% endif %}
-      </div>
+  	 <h2 class="post-title" style="margin: 0px; font-size: 36px">{{ page.title }}</h2>
 
       {{ content }}
 
