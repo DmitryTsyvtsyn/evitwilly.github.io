@@ -1,5 +1,7 @@
 ![logo](https://github.com/evitwilly/freeit.github.io/blob/master/assets/img/blog_principles.png)
 
+**STATUS: NO LONGER SUPPORTED!!!**
+
 # freeit.github.io
 
 My blog where I share my thoughts, post tutorials on programming and Android development.
